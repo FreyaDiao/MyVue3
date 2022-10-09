@@ -1,7 +1,7 @@
 <template>
   <n-layout-header bordered class="my-header">
     <div class="header-left">
-		<img src="../assets/logo.png" height="25" width="25" alt="">
+		<img src="../assets/images/logo.png" height="25" width="25" alt="">
 		<span>My Vue3 App</span>
 	</div>
     <div class="header-center">

@@ -1,0 +1,54 @@
+/* 高 */
+.h (@h) {
+    height: unit(@h, px);
+}
+
+/* 款 */
+.w (@w) {
+    width: unit(@w, px);
+}
+
+/* padding */
+.pd(@pg) {
+    padding: unit(@pg, px);
+}
+
+/* margin */
+.mg(@pg) {
+    margin: unit(@pg, px);
+}
+
+/* flex */
+.flex(@direction:row, @justify:flex-start, @align:flex-start, @warp:nowrap) {
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+    flex-wrap: @warp;
+}
+
+/* position */
+.pos(@pos, @top, @left, @right, @bottom) {
+    position: @pos;
+    top: @top;
+    left: @left;
+    right: @right;
+    bottom: @bottom;
+}
+
+/* 边框 */
+.border(@width:1, @style:solid, @color:#EBEEF5) {
+    border: unit(@width, px) @style @color;
+}
+.border-top(@width:1, @style:solid, @color:#EBEEF5) {
+    border-top: unit(@width, px) @style @color;
+}
+.border-left(@width:1, @style:solid, @color:#EBEEF5) {
+	border-left: unit(@width, px) @style @color;
+}
+.border-bottom(@width:1, @style:solid, @color:#EBEEF5) {
+    border-bottom: unit(@width, px) @style @color;
+}
+.border-right(@width:1, @style:solid, @color:#EBEEF5) {
+    border-right: unit(@width, px) @style @color;
+}

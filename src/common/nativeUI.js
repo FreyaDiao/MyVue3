@@ -15,6 +15,13 @@ import {
     NDropdown,
     NForm,
     NFormItem,
+    NMessageProvider,
+    NSelect,
+    NRow,
+    NLoadingBarProvider,
+    NCard,
+    NPopselect,
+    NDatePicker,
 } from 'naive-ui'
 
 const naiveUI = create({
@@ -32,6 +39,13 @@ const naiveUI = create({
         NDropdown,
         NForm,
         NFormItem,
+        NMessageProvider,
+        NSelect,
+        NRow,
+        NLoadingBarProvider,
+        NCard,
+        NPopselect,
+        NDatePicker,
     ]
 })
 

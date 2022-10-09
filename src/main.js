@@ -5,6 +5,7 @@ import store from './store/index.js'
 import 'vfonts/Lato.css'// 通用字体
 import 'vfonts/FiraCode.css'// 等宽字体
 import nativeUI from './common/nativeUI'
+import './assets/less/index.less'
 
 const app = createApp(App)
 
